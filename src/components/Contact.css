@@ -1,0 +1,26 @@
+.contact {
+  margin: 0 auto;
+  width: 450px;
+  height: 475px;
+  border: 1px solid gray;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+input:focus {
+  animation-duration: 2s;
+  animation-name: expand;
+  animation-iteration-count: infinite;
+}
+
+button {
+    margin-top: 20px;
+}

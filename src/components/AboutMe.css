@@ -1,0 +1,19 @@
+.About-Me {
+    border: 1px solid gray;
+    margin: 25px;
+    width: 50%;
+    padding: 20px;
+    margin-right: 50px;
+}
+.About-Me > p {
+    text-align: justify;
+}
+.about {
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
