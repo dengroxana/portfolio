@@ -1,4 +1,6 @@
-
+.header {
+    margin-bottom: 100px;
+}
 nav {
     margin-bottom: 5%;
 }
@@ -9,6 +11,7 @@ h1, .blink, h2 {
 }
 h2 {
     font-size: 24px;
+    margin-bottom: 50px;
 }
 .blink{
     animation: blink 1.2s infinite;

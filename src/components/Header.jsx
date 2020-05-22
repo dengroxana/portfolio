@@ -5,7 +5,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <div>
+    <div className="header">
         <div className="bar">
             <div className="red">
 

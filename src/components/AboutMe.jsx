@@ -7,6 +7,8 @@ function AboutMe() {
     <div id="About-Me">
       <h2>About Me</h2>
       <div className="about">
+      <img src={avatar} className="avatar" alt=""></img>
+      <img src={avatar} className="avatar2" alt=""></img>
       <div className="About-Me">
       <p>
         I am a detailed oriented Front-End Developer who previously served as a
@@ -18,7 +20,8 @@ function AboutMe() {
         I can grow as both a developer and a professional.
       </p>
       </div>
-      <img src={avatar} className="avatar" alt=""></img>
+     
+      
       </div>
     </div>
   );

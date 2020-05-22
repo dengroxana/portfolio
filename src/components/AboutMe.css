@@ -1,9 +1,9 @@
 .About-Me {
     border: 1px solid gray;
     margin: 25px;
-    width: 50%;
+    width: 30%;
     padding: 20px;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 .About-Me > p {
     text-align: justify;
@@ -12,8 +12,44 @@
     display: flex;
     justify-content: center;
 }
-.avatar {
+.avatar, .avatar2 {
     width: 300px;
     height: auto;
-    border-radius: 50%;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    box-shadow: 5px 5px 5px #3d3d3d;
+    transform: rotate(-5deg);
+    
 }
+.avatar2 {
+    margin-left: -300px;
+   z-index: 1;
+   transform: rotate(5deg);
+}
+
+#About-Me {
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 375px) {
+    .About-Me {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .about {
+        display: block;
+        
+    }
+    .avatar, .avatar2 {
+        width: 200px;
+        border-bottom: 30px solid white;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .avatar2 {
+
+       margin-top: -250px;
+
+       margin-left: 75px;
+    }
+  }
