@@ -3,3 +3,14 @@
   height: 200px;
   border: 1px solid black;
 }
+
+.button-link {
+  padding: 0.5vw 1vw;
+
+  width: 8vw;
+  margin: 1%;
+}
+
+.button-link a {
+  font-size: 1.5vw;
+}

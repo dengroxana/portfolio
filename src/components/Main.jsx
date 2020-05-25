@@ -9,7 +9,7 @@ function Main() {
     return (
         <div>
 <Landing/>
-<Header/>
+
 <AboutMe/>
 <Projects/>
 

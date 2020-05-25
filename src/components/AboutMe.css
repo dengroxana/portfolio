@@ -1,53 +1,68 @@
 .About-Me {
-    border: 1px solid gray;
-    margin: 25px;
-    width: 30%;
-    padding: 20px;
-    margin-left: 50px;
-   
-}
 
-.About-Me > p {
-    text-align: justify;
+  width: 30%;
+  padding-right: 5%;
+}
+#About-Me h2 {
+  text-align: right;
+  padding-right: 22%;
+  margin-bottom: 20px;
 }
 .about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.about-img img {
+  width: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+.about-container {
     display: flex;
     justify-content: center;
 }
+
+.About-Me > p {
+  text-align: justify;
+}
+
 .avatar {
-    width: 30vw;
-    height: 30vw;
-    border: 1vw solid var(--dark-sienna);
-   border-radius: 50%;
-  
-   
-    
+  width: 25vw;
+  height: 25vw;
+  border: 1vw solid white;
+  border-bottom: 4vw solid white;
+  transform: rotate(5deg);
+  box-shadow: 5px 10px 10px #383838;
+  margin: -6% 5% 5% 0;
 }
 
 #About-Me {
-    margin-bottom: 100px;
-  
+  margin-bottom: 100px;
 }
 
-
 @media only screen and (max-width: 375px) {
-    .About-Me {
-        margin: 0 auto;
-        width: 50%;
-    }
-    .about {
-        display: block;
-        
-    }
-    .avatar, .avatar2 {
-     
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .avatar2 {
-
-       margin-top: -250px;
-
-       margin-left: 75px;
-    }
+  .About-Me {
+    margin: 0 auto;
+    width: 50%;
   }
+  .about {
+    display: block;
+  }
+  .avatar,
+  .avatar2 {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .avatar2 {
+    margin-top: -250px;
+
+    margin-left: 75px;
+  }
+}

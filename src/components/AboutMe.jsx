@@ -1,5 +1,8 @@
 import React from "react";
 import avatar from "../assets/avatar.jpeg"
+import Laptop from "../assets/laptop.jpg"
+import Keyboard from "../assets/keyboard.jpg"
+import Ducks from "../assets/ducks.jpg"
 import "./AboutMe.css"
 
 function AboutMe() {
@@ -7,8 +10,8 @@ function AboutMe() {
     <div id="About-Me">
       <h2>About Me</h2>
       <div className="about">
+        <div className="about-container">
       <img src={avatar} className="avatar" alt=""></img>
-    
       <div className="About-Me">
       <p>
         I am a detailed oriented Front-End Developer who previously served as a
@@ -19,8 +22,14 @@ function AboutMe() {
         collaborative organization that places strong emphasis on mentorship so
         I can grow as both a developer and a professional.
       </p>
+      <button><a href="#Projects">Projects</a></button>
       </div>
-     
+      </div>
+    <div className="about-img">
+      <img src={Laptop} alt="" />
+        <img src={Ducks} alt="" />
+      <img src={Keyboard} alt="" />
+     </div>
       
       </div>
     </div>
