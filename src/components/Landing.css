@@ -1,0 +1,50 @@
+.hello {
+    font-family: var(--links);
+    font-size: 5vw;
+    background: transparent;
+  margin-left: 5%;
+   
+    
+}
+.hello-holder {
+    margin: 5%;
+}
+.landing-img {
+    height: 100vh;
+width: auto;
+
+   
+}
+.img-holder {
+    overflow: hidden;
+}
+
+
+.landing {
+   
+   display: flex;
+    height: 100vh;
+    background-size: cover;
+    text-align: left;
+    border-bottom: 1px solid black;
+   
+}
+
+.name {
+  font-size: 8vw;
+    margin: -5% 30% 20% 5%;
+    text-align: left;
+}
+
+.blink{
+    font-family: var(--heading);
+    animation: blink 1.2s infinite;
+    background: transparent;
+}
+@keyframes blink{
+    0%{     color: black;    }
+    49%{    color: black; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: black;    }
+}

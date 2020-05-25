@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import p1 from "../p1.png";
-import p2 from "../p2.png";
-import p3 from "../p3.png";
-import p4 from "../p4.png";
+import p1 from "../assets/p1.png";
+import p2 from "../assets/p2.png";
+import p3 from "../assets/p3.png";
+import p4 from "../assets/p4.png";
 
 function Projects() {
   return (
@@ -17,7 +17,7 @@ function Projects() {
           </div><br/>
             <a href="http://wydapp.surge.sh/" alt="" target="_blank" rel="noopener noreferrer">
               Site
-            </a>|<a href="https://github.com/dengroxana/wyd-app" alt="" target="_blank" rel="noopener noreferrer">
+            </a><span className="divider"></span><a href="https://github.com/dengroxana/wyd-app" alt="" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
         </div>
@@ -29,7 +29,7 @@ function Projects() {
           <br/>
           <a href="https://breaking-news.netlify.app/" alt="" target="_blank" rel="noopener noreferrer">
               Site
-            </a>|<a href="https://github.com/dengroxana/breaking-news" alt="" target="_blank" rel="noopener noreferrer">
+            </a><span className="divider"></span><a href="https://github.com/dengroxana/breaking-news" alt="" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
         </div>
@@ -41,7 +41,7 @@ function Projects() {
           <br/>
           <a href="https://sharkysnj.netlify.app/" alt="" target="_blank" rel="noopener noreferrer">
               Site
-            </a>|<a href="https://github.com/dengroxana/sharkys-wings-nj" alt="" target="_blank" rel="noopener noreferrer">
+            </a><span className="divider"></span><a href="https://github.com/dengroxana/sharkys-wings-nj" alt="" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
         </div>
@@ -53,7 +53,7 @@ function Projects() {
           <br/>
           <a href="https://hangry-helper.netlify.app/" alt="" target="_blank" rel="noopener noreferrer">
               Site
-            </a>|<a href="https://github.com/dengroxana/hangry-helper" alt="" target="_blank" rel="noopener noreferrer">
+            </a><span className="divider"></span><a href="https://github.com/dengroxana/hangry-helper" alt="" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
         </div>

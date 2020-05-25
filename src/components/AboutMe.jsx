@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../avatar.jpeg"
+import avatar from "../assets/avatar.jpeg"
 import "./AboutMe.css"
 
 function AboutMe() {
@@ -8,7 +8,7 @@ function AboutMe() {
       <h2>About Me</h2>
       <div className="about">
       <img src={avatar} className="avatar" alt=""></img>
-      <img src={avatar} className="avatar2" alt=""></img>
+    
       <div className="About-Me">
       <p>
         I am a detailed oriented Front-End Developer who previously served as a
