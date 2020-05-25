@@ -1,6 +1,7 @@
 .footer {
+  background-color: var(--platinum);
     padding: 10px 0;
-  border-top: 1px solid gray;
+  border-top: 1px solid black;
   position: fixed;
  bottom: 0;
   width: 100%;
@@ -10,5 +11,8 @@
  
 }
 
+.footer a {
+  background-color: var(--platinum);
+}
 
 

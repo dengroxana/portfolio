@@ -14,7 +14,7 @@ function AboutMe() {
       <img src={avatar} className="avatar" alt=""></img>
       <div className="About-Me">
       <p>
-        I am a detailed oriented Front-End Developer who previously served as a
+        I am a detailed oriented <b>Front-End Developer</b> who previously served as a
         medical billing specialist in the healthcare industry. Whether
         de-bugging code or responding to complex insurance issues, I take a
         methodical, process-oriented approach in breaking down obscure problems

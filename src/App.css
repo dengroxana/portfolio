@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow&display=swap");
 
 :root {
-  --main-bg-color: #f6eedf;
-  --dark-sienna: #2e0e02;
-  --blood-red: #581908;
-  --burnt-umber: #983628;
+  --main-bg-color: #ffffff;
+  --platinum: #e5e5e5;
+  --oxford-blue: #14213d;
+  --orange: #fca311;
   --heading: "Abril Fatface", cursive;
   --links: "Open Sans Condensed", sans-serif;
   --text: "PT Sans Narrow", sans-serif;
 }
 
 * {
-  background-color: var(--main-bg-color);
   scroll-behavior: smooth;
   text-align: center;
 }
@@ -23,13 +22,13 @@ body {
 h1 {
   font-family: var(--heading);
   font-size: 12vw;
-  color: var(--blood-red);
+  color: var(--oxford-blue);
   background: transparent;
 }
 h2 {
   font-family: var(--heading);
   font-size: 5vw;
-  color:var(--blood-red)
+  color:var(--oxford-blue)
 }
 p {
   font-family: var(--text);
@@ -58,7 +57,7 @@ button {
   border: 2px solid black;
   border-radius: 20px;
   padding: 0.75vw 2vw;
-  background-color: var(--burnt-umber);
+  background-color: var(--orange);
   box-shadow: inset 1px 1px 0 1px var(--main-bg-color);
 }
 

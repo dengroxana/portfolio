@@ -3,10 +3,25 @@
   height: 200px;
   border: 1px solid black;
 }
-
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+.row {
+  margin: 0 10%;
+}
+.p1,
+.p2,
+.p3,
+.p4 {
+  margin-bottom: 30%;
+  width: 20vw;
+  border: 1px solid black;
+  height: 40vw;
+  padding: 10%;
+}
 .button-link {
   padding: 0.5vw 1vw;
-
   width: 8vw;
   margin: 1%;
 }

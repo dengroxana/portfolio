@@ -8,6 +8,7 @@ import Landing from "./Landing"
 function Main() {
     return (
         <div>
+            
 <Landing/>
 
 <AboutMe/>
