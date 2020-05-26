@@ -1,22 +1,25 @@
-import React from 'react';
-import Header from "./Header"
-import AboutMe from "./AboutMe"
-import Footer from "./Footer"
-import Projects from "./Projects"
-import Landing from "./Landing"
+import React from "react";
+import { Route } from "react-router-dom";
+import AboutMe from "./AboutMe";
+import Footer from "./Footer";
+import Projects from "./Projects";
+import Landing from "./Landing";
 
 function Main() {
-    return (
-        <div>
-            
-<Landing/>
+  return (
+    <div>
+      <Route path="/" exact>
+        <Landing />
+      </Route>
 
-<AboutMe/>
-<Projects/>
+      <Route path="/about-me" exact>
+        <AboutMe />
+        <Projects />
+      </Route>
 
-<Footer/>
-        </div>
-    )
+      <Footer />
+    </div>
+  );
 }
 
-export default Main
+export default Main;

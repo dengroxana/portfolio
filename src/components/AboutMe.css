@@ -1,3 +1,8 @@
+#About-Me {
+   
+  margin-bottom: 100px;
+}
+
 .About-Me {
 
   width: 30%;
@@ -43,9 +48,6 @@
   margin: -6% 5% 5% 0;
 }
 
-#About-Me {
-  margin-bottom: 100px;
-}
 
 @media only screen and (max-width: 375px) {
   .About-Me {
