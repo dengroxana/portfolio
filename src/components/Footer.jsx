@@ -1,22 +1,20 @@
 import React from "react";
-import resume from "../assets/rdeng-resume-v2.pdf"
 import { Link } from "react-router-dom";
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
       <footer>
-       
-        <a href="https://github.com/dengroxana" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
+        <Link to="/">Home</Link>
         <span className="divider"></span>
-        <a href="https://www.linkedin.com/in/roxanadeng/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a><span className="divider"></span>
-        <Link to={resume} target="_blank">Resume</Link>
-
+        <Link to="/about-me">About Me</Link>
+        <span className="divider"></span>
+        <Link to="/projects">Projects</Link>
+        <span className="divider"></span>
+        {/* <Link to="/skills">Skills</Link>
+        <span className="divider"></span> */}
+        <Link to="/contact">Contact</Link>
       </footer>
     </div>
   );

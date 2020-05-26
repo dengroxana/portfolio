@@ -1,12 +1,11 @@
 #About-Me {
-    animation: fade ease 3s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
- margin-bottom: 100px;
+  animation: fade ease-in 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-bottom: 100px;
 }
 
 .About-Me {
-
   width: 30%;
   padding-right: 5%;
 }
@@ -14,6 +13,17 @@
   text-align: right;
   padding-right: 22%;
   margin-bottom: 20px;
+  position: relative;
+}
+#About-Me h2::after {
+  content: "";
+  width: 22%;
+  height: 2vw;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 22%;
+  background-color: var(--platinum);
 }
 .about {
   display: flex;
@@ -32,8 +42,8 @@
   margin: 0;
 }
 .about-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .About-Me > p {
@@ -49,7 +59,6 @@
   box-shadow: 5px 10px 10px #383838;
   margin: -6% 5% 5% 0;
 }
-
 
 @media only screen and (max-width: 375px) {
   .About-Me {

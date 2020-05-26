@@ -1,18 +1,18 @@
 .footer {
   background-color: var(--platinum);
-    padding: 10px 0;
+  padding: 10px 0;
   border-top: 1px solid black;
   position: fixed;
- bottom: 0;
+  bottom: 0;
   width: 100%;
- display: flex;
- justify-content: center;
- z-index: 2;
- 
+  display: flex;
+  justify-content: center;
+  z-index: 2;
 }
 
 .footer a {
   background-color: var(--platinum);
 }
-
-
+.footer a:hover {
+  text-transform: uppercase;
+}

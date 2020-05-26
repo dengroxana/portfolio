@@ -25,7 +25,7 @@ function AboutMe() {
               and a professional.
             </p>
             <button>
-             <Link to="/projects">Projects</Link>
+              <Link to="/projects">Projects</Link>
             </button>
           </div>
         </div>
