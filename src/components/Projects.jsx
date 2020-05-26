@@ -15,7 +15,7 @@ function Projects() {
             <img src={p1} alt=""></img>
 
             <p>
-              WYD App<span className="divider"></span>
+              <span className="title">WYD App</span><span className="divider"></span>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
               nostrum quisquam ullam eveniet id accusamus eligendi illo error
               earum ab esse delectus, quaerat minima, voluptate, dolorum tempore
@@ -48,7 +48,7 @@ function Projects() {
             <img src={p2} alt=""></img>
 
             <p>
-              Breaking News<span className="divider"></span>
+            <span className="title">Breaking News</span><span className="divider"></span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
               possimus quos ea hic! Quae, tempore nostrum vero voluptates
               accusamus dolores, est porro voluptatibus, atque eveniet
@@ -83,7 +83,7 @@ function Projects() {
             <img src={p3} alt=""></img>
 
             <p>
-              Sharky's NJ<span className="divider"></span>
+            <span className="title">Sharky's NJ</span><span className="divider"></span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               ipsa sint dolorum, illum magnam sapiente cupiditate. A velit unde
               dolorum sunt laborum perferendis ex optio inventore
@@ -116,7 +116,7 @@ function Projects() {
             <img src={p4} alt=""></img>
 
             <p>
-              Hangry Helper<span className="divider"></span>
+            <span className="title">Hangry Helper</span><span className="divider"></span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
               eaque consectetur architecto ut, quidem amet aut in accusantium
               doloremque, ex et delectus nam laboriosam ullam nisi nobis.

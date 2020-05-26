@@ -1,6 +1,8 @@
 #About-Me {
-   
-  margin-bottom: 100px;
+    animation: fade ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+ margin-bottom: 100px;
 }
 
 .About-Me {

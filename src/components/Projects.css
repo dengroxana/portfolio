@@ -1,8 +1,14 @@
+#Projects {
+  animation: fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 #Projects img {
   width: 200px;
   height: 200px;
   border: 1px solid black;
 }
+
 .project-container {
   display: flex;
   justify-content: center;
@@ -20,12 +26,39 @@
   height: 40vw;
   padding: 10%;
 }
+
+@keyframes tilt {
+  0% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(-3deg);
+  }
+}
 .button-link {
   padding: 0.5vw 1vw;
   width: 8vw;
   margin: 1%;
 }
-
+.button-link:hover {
+  animation: tilt ease 0.5s;
+  animation-iteration-count: infinite;
+}
 .button-link a {
   font-size: 1.5vw;
+}
+
+.title {
+  font-family: var(--heading);
+  color: var(--oxford-blue);
+  font-size: 24px;
+}
+
+.title::after {
+  content: "";
+  height: 10px;
+
+  z-index: -1;
+  background-color: var(--platinum);
 }

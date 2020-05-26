@@ -14,7 +14,10 @@ function Main() {
 
       <Route path="/about-me" exact>
         <AboutMe />
+      </Route>
+      <Route path="/projects" exact>
         <Projects />
+
       </Route>
 
       <Footer />
