@@ -17,14 +17,21 @@
 .row {
   margin: 0 10%;
 }
+.row a {
+  font-size: 20px;
+  margin: 0;
+}
+.row p {
+  text-align: justify;
+}
 .p1,
 .p2,
 .p3,
 .p4 {
   margin-bottom: 30%;
-  width: 20vw;
+  width: 300px;
   border: 1px solid black;
-  height: 40vw;
+  height: 575px;
   padding: 10%;
 }
 
@@ -41,6 +48,7 @@
   padding: 0.5vw 1vw;
   width: 8vw;
   margin: 1%;
+  margin-bottom: 0;
 }
 .button-link:hover {
   animation: tilt ease 0.5s;

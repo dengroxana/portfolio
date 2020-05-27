@@ -17,10 +17,14 @@ function Projects() {
             <p>
               <span className="title">WYD App</span>
               <span className="divider"></span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
-              nostrum quisquam ullam eveniet id accusamus eligendi illo error
-              earum ab esse delectus, quaerat minima, voluptate, dolorum tempore
-              ducimus aliquid tempora?
+              Inspired by real-life events, this web app randomly generates
+              activities for you to do. Users are able to choose from nine
+              different activity categories. Once submitted, a corresponding gif
+              is also generated using the category keyword. Built using vanilla
+              JavaScript, CSS, the <a href="https://www.boredapi.com/">
+                Bored
+              </a>{" "}
+              and <a href="https://developers.giphy.com/">GIPHY</a> API.
             </p>
 
             <br />
@@ -51,10 +55,13 @@ function Projects() {
             <p>
               <span className="title">Breaking News</span>
               <span className="divider"></span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              possimus quos ea hic! Quae, tempore nostrum vero voluptates
-              accusamus dolores, est porro voluptatibus, atque eveniet
-              quibusdam? Facere dignissimos consequatur ipsa!
+              This web app shows the top trending news articles in the US.
+              There's also an option to search for specific articles using
+              keywords. Above the search bar displays the current weather in
+              NYC. Clicking on a single article will redirect users to a link
+              for the source. Built using React, CSS, the{" "}
+              <a href="https://openweathermap.org/">OpenWeather</a> and{" "}
+              <a href="https://newsapi.org/">News</a> API.
             </p>
 
             <br />
@@ -87,10 +94,12 @@ function Projects() {
             <p>
               <span className="title">Sharky's NJ</span>
               <span className="divider"></span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-              ipsa sint dolorum, illum magnam sapiente cupiditate. A velit unde
-              dolorum sunt laborum perferendis ex optio inventore
-              necessitatibus, rerum eius delectus!
+              For this project, my developer team and I had the opportunity to
+              collaborate with a team of UX/UI designers to remodel an existing{" "}
+              <a href="https://www.sharkyswingsnj.com/east/indexs.php">
+                website
+              </a>
+              . Built using React and CSS.
             </p>
 
             <br />
@@ -121,10 +130,10 @@ function Projects() {
             <p>
               <span className="title">Hangry Helper</span>
               <span className="divider"></span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
-              eaque consectetur architecto ut, quidem amet aut in accusantium
-              doloremque, ex et delectus nam laboriosam ullam nisi nobis.
-              Nostrum, exercitationem rerum!
+              This project features full CRUD and authentication. Users can
+              create accounts and edit lists of their favorite restaurants.
+              Refer back to your list when you need help deciding what to eat!
+              Built using React and Ruby on Rails.
             </p>
 
             <br />

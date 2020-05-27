@@ -12,6 +12,10 @@
  width: 175px;
   margin-bottom: 20px;
 }
+.contact-container button:hover {
+  animation: tilt ease 0.5s;
+  animation-iteration-count: infinite;
+}
 .contact-img img{
   display: block;
   width: 60%;
