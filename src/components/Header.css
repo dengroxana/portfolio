@@ -1,17 +1,17 @@
 .header {
-    background-color: var(--platinum);
-    padding: 20px 0;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
+  background-color: var(--platinum);
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
 }
 .header a {
-    background-color: var(--platinum);
-  }
-  .header a:hover {
-    text-transform: uppercase;
-  }
+  background-color: var(--platinum);
+}
+.header a:hover {
+  text-transform: uppercase;
+}
