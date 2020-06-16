@@ -1,5 +1,5 @@
 .landing button {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 .hello {
   font-family: var(--links);
@@ -36,6 +36,7 @@
   font-family: var(--heading);
   animation: blink 1.2s infinite;
   background: transparent;
+  font-size: 8vw;
 }
 @keyframes blink {
   0% {
@@ -52,5 +53,17 @@
   }
   100% {
     color: black;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hello-holder {
+    padding-top: 20%;
+  }
+  .hello {
+    font-size: 2vh;
+  }
+  .landing-img {
+    width: 100vw;
   }
 }
