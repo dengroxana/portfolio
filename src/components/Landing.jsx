@@ -11,6 +11,7 @@ function Landing() {
         <h1 className="name">
           Roxana<span className="blink">|</span>
         </h1>
+        <p>and I'm a Software Engineer.</p>
         <button>
           <Link to="/about-me">About Me</Link>
         </button>
