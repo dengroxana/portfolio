@@ -62,21 +62,42 @@
 }
 
 @media only screen and (max-width: 375px) {
+  #About-Me {
+    margin-top: 30%;
+  }
+  #About-Me h2 {
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 48px;
+  }
+  #About-Me h2::after {
+    content: "";
+    width: 57%;
+    height: 5vw;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 22%;
+    background-color: var(--platinum);
+  }
   .About-Me {
     margin: 0 auto;
-    width: 50%;
+    width: 85%;
+    padding-right: 0;
   }
-  .about {
+  .About-Me button {
+    padding: 3% 5%;
+    margin-bottom: 10%;
+  }
+  .about-container {
     display: block;
-  }
-  .avatar,
-  .avatar2 {
     margin: 0 auto;
-    margin-bottom: 50px;
   }
-  .avatar2 {
-    margin-top: -250px;
-
-    margin-left: 75px;
+  .avatar {
+    margin: 10% 0;
+    width: 50vw;
+    height: 50vw;
+    border: 2vw solid white;
+    border-bottom: 8vw solid white;
   }
 }

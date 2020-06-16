@@ -66,4 +66,7 @@
   .landing-img {
     width: 100vw;
   }
+  .landing button {
+    padding: 10% 5%;
+  }
 }
