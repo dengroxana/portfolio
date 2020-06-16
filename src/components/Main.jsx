@@ -5,11 +5,13 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Landing from "./Landing";
 import Contact from "./Contact";
+import Header from "./Header"
 import Skills from "./Skills";
 
 function Main() {
   return (
     <div>
+      <Header/>
       <Route path="/" exact>
         <Landing />
       </Route>

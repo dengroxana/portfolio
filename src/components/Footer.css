@@ -10,9 +10,6 @@
   z-index: 2;
 }
 
-.footer a {
-  background-color: var(--platinum);
-}
-.footer a:hover {
-  text-transform: uppercase;
+.footer p{
+margin: 0;
 }

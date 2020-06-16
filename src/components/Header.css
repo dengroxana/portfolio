@@ -1,15 +1,17 @@
 .header {
-    margin-bottom: 100px;
-  
+    background-color: var(--platinum);
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
 }
-nav {
-    margin-bottom: 5%;
-}
-
-
-
-
-
-
-
-
+.header a {
+    background-color: var(--platinum);
+  }
+  .header a:hover {
+    text-transform: uppercase;
+  }
