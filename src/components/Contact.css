@@ -3,23 +3,64 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   display: flex;
- margin-right: 20%;
+  margin-right: 20%;
 }
 #Contact h2 {
   margin-top: 30%;
   text-align: right;
 }
-.contact-container button {
- width: 175px;
+.contact-container {
+  order: 2;
+  margin-left: -10%;
+}
+#Contact button {
+  width: 175px;
   margin-bottom: 20px;
 }
-.contact-container button:hover {
+#Contact button:hover {
   animation: tilt ease 0.5s;
   animation-iteration-count: infinite;
 }
-.contact-img img{
+.contact-img {
+  order: 1;
+  width: 80%;
+}
+.contact-img img {
   display: block;
-  width: 60%;
+  width: 50%;
   height: 50vh;
   border-right: 1px solid black;
+}
+
+@media only screen and (max-width: 375px) {
+  #Contact {
+    display: block;
+
+    margin: 0;
+  }
+  #Contact h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  #Contact button {
+    padding: 10px;
+  }
+  .contact-container {
+    height: 50vh;
+    margin-left: 0;
+  }
+  .contact-img img {
+    height: 20vh;
+    border-right: none;
+  }
+  .contact-img {
+    margin-top: 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    order: 2;
+    width: 100vw;
+    height: auto;
+    align-items: flex-end;
+  }
 }

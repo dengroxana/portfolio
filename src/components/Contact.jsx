@@ -8,10 +8,6 @@ import Beans from "../assets/beans.jpg";
 function Contact() {
   return (
     <div id="Contact">
-      <div className="contact-img">
-        <img src={Coffee} alt="" />
-        <img src={Beans} alt="" />
-      </div>
       <div className="contact-container">
         <h2>Contact</h2>
         <button>
@@ -23,7 +19,7 @@ function Contact() {
         <button>
           <a href="mailto:roxanadeng@gmail.com">Email</a>
         </button>
-          <br />
+        <br />
         <button>
           <a
             href="https://github.com/dengroxana"
@@ -43,6 +39,10 @@ function Contact() {
             LinkedIn
           </a>
         </button>
+      </div>
+      <div className="contact-img">
+        <img src={Coffee} alt="" />
+        <img src={Beans} alt="" />
       </div>
     </div>
   );
