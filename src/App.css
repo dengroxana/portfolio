@@ -34,6 +34,7 @@ h2 {
 p {
   font-family: var(--text);
   font-size: 20px;
+  margin-bottom: 0;
 }
 a,
 a:hover,
@@ -61,6 +62,7 @@ button {
   padding: 0.75vw 2vw;
   background-color: var(--orange);
   box-shadow: inset 1px 1px 0 1px var(--main-bg-color);
+  margin: 25px 0;
 }
 
 @keyframes fade {
