@@ -38,7 +38,7 @@ function Contact() {
           <span className="down"></span>
           <br />
           <br />
-          <textarea name="Message" rows="10" cols="30"></textarea>
+          <textarea name="Message" rows="10" cols="40"></textarea>
           <br />
           <button className="submit-btn">Send</button>
         </form>
