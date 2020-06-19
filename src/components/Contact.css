@@ -3,19 +3,31 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   display: flex;
-  margin-right: 20%;
+  margin-right: 5%;
 }
 #Contact h2 {
-  margin-top: 30%;
-  text-align: right;
+  margin: 30% 0 20% -350%;
+  text-align: center;
 }
 .contact-container {
   order: 2;
-  margin-left: -10%;
+  margin-left: 10%;
+  flex-direction: row;
+}
+.submit-btn {
+  font-family: var(--links);
+  font-size: 18px;
+  width: 125px !important;
+  height: 50px !important;
+  animation: none !important;
+}
+.submit-btn:hover {
+  cursor: pointer;
 }
 #Contact button {
   width: 175px;
   margin-bottom: 20px;
+  
 }
 #Contact button:hover {
   animation: tilt ease 0.5s;
@@ -23,13 +35,49 @@
 }
 .contact-img {
   order: 1;
-  width: 80%;
+  width: 70%;
 }
 .contact-img img {
   display: block;
   width: 50%;
   height: 50vh;
   border-right: 1px solid black;
+}
+.email-form {
+  margin: 15% 0 3% -20%;
+  order: 2;
+  z-index: 1;
+  border: 1px solid black;
+  padding: 0 20px;
+}
+label {
+  font-family: var(--text);
+}
+input {
+  width: 200px;
+  height: 20px;
+}
+textarea {
+  resize: none;
+}
+.down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 5px;
+  animation: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0) rotate(45deg);
+    animation-timing-function: ease-in-out;
+  }
+  to {
+    transform: translateY(5px) rotate(45deg);
+  }
 }
 
 @media only screen and (max-width: 375px) {
