@@ -3,15 +3,21 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   display: flex;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 #Contact h2 {
-  margin-top: 30%;
-  text-align: right;
+  margin: 30% 0 20% -150%;
+  text-align: center;
 }
 .contact-container {
   order: 2;
-  margin-left: -10%;
+  margin-left: 10%;
+}
+.submit {
+  font-family: var(--links);
+  font-size: 18px;
+  width: 75px;
+  height: 50px;
 }
 #Contact button {
   width: 175px;
@@ -23,13 +29,28 @@
 }
 .contact-img {
   order: 1;
-  width: 80%;
+  width: 70%;
 }
 .contact-img img {
   display: block;
   width: 50%;
   height: 50vh;
   border-right: 1px solid black;
+}
+.email-form {
+  margin: 15% 0 0 -20%;
+  order: 2;
+}
+label {
+  font-family: var(--text);
+}
+.down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin: 0 5px;
 }
 
 @media only screen and (max-width: 375px) {
